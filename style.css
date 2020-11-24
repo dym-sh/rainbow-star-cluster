@@ -1,0 +1,23 @@
+html
+, body
+  { height : 100%
+  ; display : block
+  }
+
+body
+  { align-items : center
+  ; background : black
+  ; display : flex
+  ; overflow : hidden
+  ; justify-content : center
+  ; padding : 1rem
+  }
+
+canvas
+  { background : black
+  ; cursor : grab
+  ; display : block
+  }
+
+canvas:active
+  { cursor : grabbing }
